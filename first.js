@@ -1,12 +1,14 @@
-console.log("my first code");
+//console.log("my first code");
+//var can be redeclared or can be redifined
 var name = "mani";
 var name = "naga";
-console.log(name);
+var name = "Vamsi";
+console.log(name); //let
 let city = "bng";
 console.log(city);
-city = "atp";
+city = "atp"; //constant can not be redeclared or redifined
 const country = "India";
-console.log(country);
+console.log(country); //constant country
 
 //function
 function hello() {

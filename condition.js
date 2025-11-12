@@ -1,4 +1,5 @@
 //conditions
+//IF
 function isEligible(value) {
   if (value >= 18) {
     console.log("eligible to drive four wheeler");
@@ -6,6 +7,7 @@ function isEligible(value) {
 }
 isEligible(19);
 
+//IF ELSE
 function isEligible(value) {
   if (value >= 18) {
     console.log("eligible to drive four wheeler");

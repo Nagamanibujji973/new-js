@@ -1,32 +1,3 @@
-/* let x = 10;
-x += 10;
-console.log(x);
- */
-/* let x = 10;
-x -= 10;
-console.log(x); */
-
-/* let x = 10;
-x *= 10;
-console.log(x);
- */
-/* 
-let x = 10;
-x /= 10;
-console.log(x); */
-
-/* let x = 10;
-x %= 10;
-console.log(x); */
-/* 
-console.log(10 == 10);
-
-console.log(10 == "10");
-
-console.log(10 === "10");
-console.log(10 === 10);
- */
-
 //IF ELSE IF
 //write a js function that accepts string as a input
 function pack(type) {
