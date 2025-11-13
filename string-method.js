@@ -6,5 +6,5 @@ let text2 = "Mohanraj";
 //let value = text1 + "" + text2;
 //console.log(value);
 
-let value = text1.concat(text2);
+let value = text1.concat(" ", text2); //space b/w words
 console.log(value);
