@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Grid Layout</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+      }
+
+      .grid {
+        display: grid;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      /* Row 1 → Two equal containers */
+      .row2-cols {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      /* Row 2 → Four equal containers */
+      .row4-cols {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .box {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Row 1: Container 1 and Container 6 -->
+    <div class="grid row2-cols">
+      <div class="box">Container 1</div>
+      <div class="box">Container 6</div>
+    </div>
+
+    <!-- Row 2: Containers 2, 3, 4, 5 -->
+    <div class="grid row4-cols">
+      <div class="box">Container 2</div>
+      <div class="box">Container 3</div>
+      <div class="box">Container 4</div>
+      <div class="box">Container 5</div>
+    </div>
+
+    <!-- Row 3: NEW Containers 7 and 8 -->
+    <div class="grid row2-cols">
+      <div class="box">Container 7</div>
+      <div class="box">Container 8</div>
+    </div>
+  </body>
+</html>
